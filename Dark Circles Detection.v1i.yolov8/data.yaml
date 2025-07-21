@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['high', 'low', 'moderate', 'no_dark_circle']
+
+roboflow:
+  workspace: yogi-g8yw7
+  project: dark-circles-detection-lkzhn
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yogi-g8yw7/dark-circles-detection-lkzhn/dataset/1
